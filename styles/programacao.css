@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.horarios-tab{
+    margin: 0rem auto 10rem auto;
+   
+}
+.programacao{
+    width: 90%;
+    margin: auto auto;
+    display: grid; grid-template-columns: calc(90vw/6) calc(90vw/6) calc(90vw/6) calc(90vw/6) calc(90vw/6) calc(90vw/6); grid-template-rows: auto 180px 180px 180px 180px 180px;
+    text-align: center;
+    border: 1px solid #ddd141;
+    background-color: #252525;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+.tab-header{
+    width: 85.9%; height: 80px;
+    display: flex; align-items: center; justify-content: space-between  ;
+    border: 1px solid #ddd141;
+    margin: 0 auto 0 auto;
+    padding: 2rem;
+    background-color: #101010; color: #ddd141;
+    box-sizing: content-box;
+}
+
+ .dropdown{
+    display: flex; flex-direction: column;
+    position: relative;
+    padding-top: 5rem;
+    width: 15rem;height: 15rem;
+    color:#ddd141;
+}
+
+.dropdown button{
+    font-family: 'raleway';  
+    width: 100%; height: 5rem;
+    padding: 1rem;
+    display: flex; align-items: center; justify-content: space-between;
+    background-color: #101010;
+    border: none;
+    color:#ddd141;
+}
+
+button.dropdown-option{
+    display: none;
+    background-color: #252525;
+}
+
+button.dropdown-option:hover{
+    background-color: #333;
+}
+
+#dropdown-arrow{
+    text-align: right;
+    display: inline;
+}
+.dropdown-option p#dropdown-arrow{
+    display: none;
+}
+
+.tab-header img {
+    width: auto; height: 100%;
+    margin-right: 12px;
+}
+
+.tab-item-cont{
+    border: 1px solid #ddd141;
+    padding: 1rem;
+    line-height: 24px;
+    font-size: 20px;
+    box-sizing: content-box;
+}
+
+.week-day{
+    background-color: #101010;
+    color: #ddd141;
+}
+
+.hour{
+
+    margin-top:2rem;
+    text-align: left;
+    font-size: 32px;
+}
+
+.event{
+    font-weight: 600;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+#zoom-canvas{
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    width:100%; height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    position: fixed;top: 0; left: 0;
+    z-index: 10;
+}
+
+.zoomed-movie{
+    width: 50%; height: 80%;
+    background-color: #101010;
+    display:flex;
+}
+
+.movie-img{
+    width:50% ;height: 100%;
+}
+
+.movie-img img{
+    width: 100%; height: 100%;
+}
+
+.movie-info{
+    width: 50%;
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+.movie-category{
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,0.6);
+    font-size: 10px;
+}
+
+.movie-name{
+    margin-bottom: 3rem;
+}
+
+.movie-synopsis{
+    margin-bottom: 1rem;
+    line-height: 28px;
+}
+
+.close-btn{ 
+    position: fixed; top:4.5rem; right: 24rem;
+    margin:1rem;
+    width: 20px; height: 20px;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background-color: #101010
+}
+
+.vase-garnish{
+    height: 80%; width: auto;
+}
+
+.reverse{
+    transform: scaleX(-1);
+}
+
+.week-container.first-week{
+    margin-top: 10rem;
+}
+
+hr{
+    margin-top: 1rem;
+    border:1px solid #ddd141;
+   
+}
+
+.week-container-header{
+    padding-right: 10%;
+    padding-left: 12%;
+    margin-bottom: -3rem;
+}
+
+.week-container-header.first-week{
+    font-size: 20px;
+}
+
+
+

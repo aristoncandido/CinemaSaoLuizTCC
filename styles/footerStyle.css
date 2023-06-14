@@ -1,0 +1,107 @@
+
+    .footer{
+    box-sizing: border-box;
+    margin-top: 150px;
+    width: 100%;
+    padding: 70px 15%;
+    background: rgb(0, 0, 0);
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ddd141;
+    }
+    
+    .col-2 h3{
+    margin-right: 52%;
+    }
+    
+    .col-1 h3{
+    margin-right: 30%;
+    }
+    
+    
+    .col-3{
+    text-align: center;
+    z-index: 5;
+    }
+    
+    .col-2{
+    flex-grow: 2;
+    margin-left: 12%;
+    z-index: 5;
+    }
+    
+    .footer div h3{
+    color: #ddd141;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    }
+    
+    .col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    }
+    .col-1 a:hover{
+    color: #ddd141;
+    transition: 0.4s;
+    }
+    
+    form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    /* margin-top: 10px; */ margin-bottom: 40px;
+    outline: none; border: none;
+    }
+    form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+    form button:hover{
+    color: #ddd141;
+    transition: 0.4s;
+    border: 2px solid #ddd141;
+    }
+    
+    .social-icons{
+    margin-top: 30px;
+    position: relative;
+    left: -3%;
+    }
+    
+    .social-icons a{
+    display: inline;
+    font-size: 28px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+    
+    .social-icons a:hover{
+    color: #ddd141;
+    transition: 0.4s;
+    }
+    
+    .text-footer{
+    font-weight: 100;
+    }
+
+    #map{
+        font-size: 12px;
+    }
+
+    #map:hover{
+        text-decoration: underline;
+    }

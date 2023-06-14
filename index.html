@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+ 	<link rel="stylesheet" href="styles/footerStyle.css">
+	<link rel="stylesheet" href="styles/scrollSnap.css">
+	<link rel="shortcut icon" href="imgs/favicon/favicon-96x96-transparent.png">
+	<link rel="stylesheet" href="styles/card.css">
+    <title>Cinema São Luiz</title>
+
+	<style>
+		#camera-body,
+		#reel-1,
+		#reel-2 {
+		fill: #fff;
+		stroke: none;
+}
+	</style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/logo/logo-dourada.png" alt="Arte da Logo do Cinema São Luiz">
+            <img src="imgs/logo/texto-logo-dourado.png" alt="Cinema São Luiz">
+        </div>
+        <nav>
+           <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">Notícias</a></li>
+                <li><a href="schedule.html">Programação</a></li>
+           </ul>
+        </nav>
+    </header>
+
+	<main>
+		<div class="snapArea">
+			<div id="snapBoxOne">
+				<div class="slide-container">
+
+					<div class="slide show-slide">
+						<img src="imgs/slide/cinema-sao-luiz-cine-pe-sessao.JPG" alt="">
+						<div class="slide-text">
+							<h1>Eventos <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Culturais</h1>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="imgs/slide/cinema-sao-luiz-2.jpeg" alt="">
+						<div class="slide-text">
+							<h1>Salas <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confortáveis</h1>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="imgs/slide/mural-cinema-sao-luiz.jpg" alt="">
+						<div class="slide-text">
+							<h1>Artes <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Maravilhosas</h1>
+						</div>
+					</div>
+
+					<div class="slide">
+						<img src="imgs/slide/cinema-sao-luiz-1.jpeg" alt="">
+						<div class="slide-text">
+							<h1>Mais de  <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mil lugares</h1>
+						</div>
+					</div>
+				
+					<div class="slide">
+						<img src="imgs/slide/cinema-sao-luiz-cine-pe.JPG" alt="">
+						<div class="slide-text">
+							<h1>70 anos <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; de cinema</h1>
+						</div>
+					</div>
+					
+					<div class="slide">
+						<img src="imgs/slide/cinema-sao-luiz-3.jpeg" alt="">
+						<div class="slide-text">
+							<h1>venha <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; conhecer</h1>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div id="snapBoxTwo">
+				<div class="history-container">
+					<div class="history">
+						<div id ="historia-title-img"> 
+							<img src="imgs/historia/sao-luiz-logo-manchete.png" alt="" srcset="">
+						</div>
+							<p>Inaugurado em 6 de setembro de 1952, É o <span>cinema mais antigo do Recife</span>  e um dos últimos cinemas de rua em funcionamento,
+								sua importância para a história da cidade é tanta que, em 2008, foi tombado pelo Governo do Estado como <span>Monumento Histórico</span>.
+							</p>
+						</div>   
+
+					<aside>
+						<div id="cinema-history-img"> <img  src="imgs/historia/cinema-sao-luiz-antigo.jpg" alt=""> </div>
+						<div id="newspaper-history-img"> <img src="imgs/historia/cinema-sao-luiz-primeira-manchete.jpg" alt=""> </div>
+
+						<div class="canvas">
+							<div id="maquina">  
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org"
+										id="camera-loader">
+									<defs
+										id="defs12" />
+									<path
+										id="camera-body"
+										d="M 51.5625 0 C 50.667739 -0.00962983 49.756943 0.05800477 48.84375 0.1875 C 41.018415 1.2971691 35.117198 7.3376842 33.8125 14.71875 C 30.504071 7.9918491 23.138091 3.8277945 15.3125 4.9375 C 5.573576 6.3185261 -1.1937811 15.321773 0.1875 25.0625 C 1.030765 31.00916 4.7245026 35.850708 9.6875 38.40625 L 10.59375 44.84375 L 41.21875 40.5 C 42.618434 40.301472 43.966737 41.101389 44.15625 42.4375 C 44.34576 43.773612 43.274684 44.957723 41.875 45.15625 L 11.25 49.5 L 12.40625 57.6875 C 12.593105 59.005185 13.837018 59.937079 15.15625 59.75 L 64.25 52.78125 C 65.567815 52.594377 66.499355 51.348937 66.3125 50.03125 L 63.5625 30.78125 C 67.618077 26.946961 69.843395 21.259142 69 15.3125 C 67.748216 6.4849658 60.211858 0.09304631 51.5625 0 z M 51.28125 3.75 C 58.168631 3.6506107 64.22589 8.6859174 65.21875 15.6875 C 66.295328 23.279482 61.029156 30.329715 53.4375 31.40625 C 45.84552 32.482829 38.795329 27.18573 37.71875 19.59375 C 36.641441 11.998855 41.938942 4.9828747 49.53125 3.90625 C 50.124347 3.8221462 50.697574 3.7584222 51.28125 3.75 z M 17.5625 8.53125 C 24.449868 8.4318561 30.507144 13.46718 31.5 20.46875 C 32.576577 28.060719 27.310389 35.110969 19.71875 36.1875 C 12.126783 37.264077 5.0765804 31.966969 4 24.375 C 2.9226914 16.780121 8.2202041 9.7641225 15.8125 8.6875 C 16.405598 8.603395 16.978824 8.5396714 17.5625 8.53125 z M 79.71875 27.46875 L 66.9375 33.65625 L 68.53125 44.8125 L 82.53125 47.21875 L 79.71875 27.46875 z M 41.71875 41.0625 C 41.582761 41.058251 41.422178 41.073761 41.28125 41.09375 L 8.15625 45.78125 L 7.90625 44.09375 L 2.78125 43.9375 L 4 52.53125 L 8.875 50.9375 L 8.625 49.25 L 41.78125 44.5625 C 42.908673 44.40259 43.699053 43.493996 43.5625 42.53125 C 43.443014 41.688847 42.670671 41.092246 41.71875 41.0625 z M 51.53125 57.21875 L 28.625 60.4375 C 28.625117 63.279515 28.625057 61.501735 28.625 64.34375 L 30.90625 64.34375 L 32.40625 64.34375 L 17.21875 97.46875 C 16.804629 98.371268 17.19123 99.429629 18.09375 99.84375 C 18.996268 100.25787 20.054629 99.87127 20.46875 98.96875 L 36.34375 64.34375 L 38.28125 64.34375 L 38.28125 98.21875 C 38.28125 99.211743 39.069507 100 40.0625 100 C 41.055493 100 41.875 99.211743 41.875 98.21875 L 41.875 64.34375 L 43.6875 64.34375 L 59.71875 98.96875 C 60.136118 99.869771 61.192729 100.26112 62.09375 99.84375 C 62.994771 99.426382 63.386118 98.338521 62.96875 97.4375 L 47.65625 64.34375 L 49.09375 64.34375 L 51.53125 64.34375 L 51.53125 57.21875 z " />
+									<path
+										id="reel-1"
+										d="m 17.763265,10.60917 c -1.849868,0 -3.349902,1.500036 -3.349902,3.349902 0,1.849868 1.500034,3.34863 3.349902,3.34863 1.849865,0 3.348629,-1.498762 3.348629,-3.34863 0,-1.849866 -1.498764,-3.349902 -3.348629,-3.349902 z m -8.0539896,5.851215 c -1.849868,0 -3.3499023,1.500032 -3.3499023,3.349898 0,1.849866 1.5000343,3.349897 3.3499023,3.349897 1.8498656,0 3.3498996,-1.500031 3.3498996,-3.349897 0,-1.849866 -1.500034,-3.349898 -3.3498996,-3.349898 z m 16.1016246,0 c -1.849868,0 -3.3499,1.500032 -3.3499,3.349898 0,1.849866 1.500032,3.349897 3.3499,3.349897 1.849865,0 3.348629,-1.500031 3.348629,-3.349897 0,-1.849866 -1.498764,-3.349898 -3.348629,-3.349898 z m -13.023579,9.460259 c -1.849867,0 -3.3498994,1.500032 -3.3498994,3.349902 0,1.849865 1.5000324,3.348629 3.3498994,3.348629 1.849867,0 3.3499,-1.498764 3.3499,-3.348629 0,-1.84987 -1.500033,-3.349902 -3.3499,-3.349902 z m 9.950613,0 c -1.849866,0 -3.348629,1.500032 -3.348629,3.349902 0,1.849865 1.498763,3.348629 3.348629,3.348629 1.849865,0 3.349901,-1.498764 3.349901,-3.348629 0,-1.84987 -1.500036,-3.349902 -3.349901,-3.349902 z">
+										<animateTransform
+										attributeName="transform"
+										attributeType="XML"
+										type="rotate"
+										dur="2s"
+										begin="0"
+										from="0 17.66 22.74"
+										to="360 17.66 22.74"
+										repeatCount="indefinite" />
+									</path>
+									<path
+										id="reel-2"
+										d="m 51.483904,5.8171007 c -1.849872,0 -3.349908,1.5000388 -3.349908,3.3499074 0,1.8498709 1.500036,3.3486359 3.349908,3.3486359 1.849868,0 3.348635,-1.498765 3.348635,-3.3486359 0,-1.8498686 -1.498767,-3.3499074 -3.348635,-3.3499074 z M 43.4299,11.668326 c -1.849872,0 -3.349908,1.500034 -3.349908,3.349904 0,1.849869 1.500036,3.349903 3.349908,3.349903 1.849869,0 3.349906,-1.500034 3.349906,-3.349903 0,-1.84987 -1.500037,-3.349904 -3.349906,-3.349904 z m 16.101654,0 c -1.849871,0 -3.349907,1.500034 -3.349907,3.349904 0,1.849869 1.500036,3.349903 3.349907,3.349903 1.849867,0 3.348635,-1.500034 3.348635,-3.349903 0,-1.84987 -1.498768,-3.349904 -3.348635,-3.349904 z m -13.023602,9.460276 c -1.849871,0 -3.349907,1.500034 -3.349907,3.349908 0,1.849869 1.500036,3.348635 3.349907,3.348635 1.849869,0 3.349905,-1.498766 3.349905,-3.348635 0,-1.849874 -1.500036,-3.349908 -3.349905,-3.349908 z m 9.950632,0 c -1.849872,0 -3.348637,1.500034 -3.348637,3.349908 0,1.849869 1.498765,3.348635 3.348637,3.348635 1.849867,0 3.349905,-1.498766 3.349905,-3.348635 0,-1.849874 -1.500038,-3.349908 -3.349905,-3.349908 z">
+										<animateTransform
+										attributeName="transform"
+										attributeType="XML"
+										type="rotate"
+										dur="3.6s"
+										begin="0"
+										from="0 51.4 17.7"
+										to="360 51.4 17.7"
+										repeatCount="indefinite" />
+									</path>
+								</svg>
+							</div>
+							<div id="luz"></div>
+						</div>
+					</aside>
+					
+					<div class="history" id="history-continuation">
+						<p><span>O cinema</span> prezava pela arte na concepção clássica, exibindo os cine-teatro, possui uma sala com balcão,
+							com capacidade para 1000 espectadores,o hall principal conta com um painel do artista plástico pernambucano Lula Cardoso Ayres.
+							<span>A entrada</span> do cinema faz oposição ao Rio Capibaribe e marca o cruzamento entre a Rua da Aurora e Avenida Conde da Boa Vista,
+							assumindo um papel marcante na paisagem da Boa Vista e contribuindo diretamente para o dinamismo do centro.
+							</p>
+					</div>
+				</div>
+			</div>
+
+				<div id="snapBoxThree">
+					<div class="mostra-container">
+						<div class="mostra-container-header">
+							<h2>Sessões Passadas</h2>
+							<hr>
+						</div>
+
+						<div class="mostra">
+							<h2>Mostra Pernambucana</h2>
+
+							<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+							<section class="hero-section">
+								<div class="card-grid pop-up">
+									<a class="card pop-up" href="#">
+									<div class="card__background pop-up"> <img class="pop-up" src="imgs/filmes/parasite.jpg" alt="" height="319px" width="213px" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">SUSPENSE</p>
+									<h3 class="card__heading pop-up">Parasita</h3>
+									<p class="card__synopsis">Toda a família de Ki-taek está desempregada, vivendo em um porão sujo e apertado. Por obra do acaso, ele começa a dar aulas de inglês para uma garota de família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe e filhos bolam um plano para se infiltrar também na abastada família, um a um. No entanto, os segredos e mentiras necessários à ascensão social cobram o seu preço.</p>
+
+									</div>
+								</a>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/et.jpg" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">Ficção Científica</p>
+									<h3 class="card__heading pop-up">E.T. - O Extraterrestre</h3>
+									<p class="card__synopsis">O garoto Elliott faz amizade com um pequeno alienígena inofensivo que está bem longe do seu planeta. Ele decide manter a adorável criatura em segredo e em casa após apresentá-la aos irmãos.</p>
+
+									</div>
+								</a>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/cdc.jfif" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+										<p class="card__category pop-up">Drama/Comédia</p>
+										<h3 class="card__heading pop-up">Clube dos Cinco</h3>
+										<p class="card__synopsis">Cinco adolescentes do ensino médio cometem pequenos delitos na escola. Os estudantes são punidos e precisam passar o sábado na biblioteca do colégio escrevendo uma redação contando o que pensam de si mesmos. O grupo reúne jovens com perfis completamente diferentes: o popular, a patricinha, a esquisita, o nerd e o rebelde. No decorrer do dia, eles passam a se conhecer melhor e a aceitar suas diferenças, compartilhando seus maiores segredos.</p>
+									</div>
+									</a>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/grease.jpg" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">Musical/Romance</p>
+									<h3 class="card__heading pop-up">Grease</h3>
+									<p class="card__synopsis">Na Califórnia de 1959, a boa moça Sandy e o metido Danny se apaixonam e aproveitam um verão inesquecível na praia. Quando voltam às aulas, eles descobrem que frequentam a mesma escola. Danny lidera a gangue dos T-Birds, um grupo que gosta de jaquetas de couro e muito gel no cabelo, e Sandy passa tempo com as Pink Ladies, lideradas pela firme e sarcástica Rizzo. Quando os dois se reúnem, Sandy percebe que Danny não é o mesmo por quem se apaixonou, e ambos precisam mudar caso queiram ficar juntos.</p>
+									</div>
+								</li>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/jumanji.jpg" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">Aventura</p>
+									<h3 class="card__heading pop-up">Jumanji - Bem-vindo à Selva</h3>
+									<p class="card__synopsis">Alan Parrish desapareceu quando era menino e ninguém acredita na história de seu amigo de que ele foi sugado por um jogo de tabuleiro. Vinte e seis anos depois, duas crianças acham o jogo no sótão e, quando começam a jogar, Alan é libertado. Mas a disputa ainda não acabou e Alan precisa terminar antes de ser realmente solto.</p>
+									</div>
+								</a>
+								<div>
+							</section>
+						</div>
+
+						<div class="mostra">
+							<h2>Mostra Coreana</h2>
+
+							<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+							<section class="hero-section">
+								<div class="card-grid pop-up">
+									<a class="card pop-up" href="#">
+									<div class="card__background pop-up"> <img class="pop-up" src="imgs/filmes/parasite.jpg" alt="" height="319px" width="213px" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">SUSPENSE</p>
+									<h3 class="card__heading pop-up">Parasita</h3>
+									<p class="card__synopsis">Toda a família de Ki-taek está desempregada, vivendo em um porão sujo e apertado. Por obra do acaso, ele começa a dar aulas de inglês para uma garota de família rica. Fascinados com a vida luxuosa destas pessoas, pai, mãe e filhos bolam um plano para se infiltrar também na abastada família, um a um. No entanto, os segredos e mentiras necessários à ascensão social cobram o seu preço.</p>
+
+									</div>
+								</a>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/et.jpg" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">Ficção Científica</p>
+									<h3 class="card__heading pop-up">E.T. - O Extraterrestre</h3>
+									<p class="card__synopsis">O garoto Elliott faz amizade com um pequeno alienígena inofensivo que está bem longe do seu planeta. Ele decide manter a adorável criatura em segredo e em casa após apresentá-la aos irmãos.</p>
+
+									</div>
+								</a>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/cdc.jfif" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+										<p class="card__category pop-up">Drama/Comédia</p>
+										<h3 class="card__heading pop-up">Clube dos Cinco</h3>
+										<p class="card__synopsis">Cinco adolescentes do ensino médio cometem pequenos delitos na escola. Os estudantes são punidos e precisam passar o sábado na biblioteca do colégio escrevendo uma redação contando o que pensam de si mesmos. O grupo reúne jovens com perfis completamente diferentes: o popular, a patricinha, a esquisita, o nerd e o rebelde. No decorrer do dia, eles passam a se conhecer melhor e a aceitar suas diferenças, compartilhando seus maiores segredos.</p>
+									</div>
+									</a>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/grease.jpg" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">Musical/Romance</p>
+									<h3 class="card__heading pop-up">Grease</h3>
+									<p class="card__synopsis">Na Califórnia de 1959, a boa moça Sandy e o metido Danny se apaixonam e aproveitam um verão inesquecível na praia. Quando voltam às aulas, eles descobrem que frequentam a mesma escola. Danny lidera a gangue dos T-Birds, um grupo que gosta de jaquetas de couro e muito gel no cabelo, e Sandy passa tempo com as Pink Ladies, lideradas pela firme e sarcástica Rizzo. Quando os dois se reúnem, Sandy percebe que Danny não é o mesmo por quem se apaixonou, e ambos precisam mudar caso queiram ficar juntos.</p>
+									</div>
+								</li>
+								<a class="card pop-up" href="#">
+									<div class="card__background pop-up"><img class="pop-up" src="imgs/filmes/jumanji.jpg" alt="" height="319" width="213" ></div>
+									<div class="card__content pop-up">
+									<p class="card__category pop-up">Aventura</p>
+									<h3 class="card__heading pop-up">Jumanji - Bem-vindo à Selva</h3>
+									<p class="card__synopsis">Alan Parrish desapareceu quando era menino e ninguém acredita na história de seu amigo de que ele foi sugado por um jogo de tabuleiro. Vinte e seis anos depois, duas crianças acham o jogo no sótão e, quando começam a jogar, Alan é libertado. Mas a disputa ainda não acabou e Alan precisa terminar antes de ser realmente solto.</p>
+									</div>
+								</a>
+								<div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </main>
+
+
+	<section id="snapBoxFour">
+		<div class="footer">
+			
+			<div class="col-1">
+				<h3>CONTATOS</h3>
+				<p class="text-footer">Rua da Aurora, 175 <br> Boa Vista, Recife</p>
+				<a id="map" href="https://goo.gl/maps/WmNAoK9bXZ5SdS489" target="_blank">(Ver no mapa)</a>
+				<p class="text-footer">(81) 3184-3157</p>
+				<div class="social-icons">
+					<a href = "https://www.facebook.com/cinesaoluiz/" target="_blank" class="fab fa-facebook"></a>
+					<a href = "https://www.instagram.com/cinesaoluizreal/" target="_blank" class="fab fa-instagram"></a>
+					<a href = "https://twitter.com/cinesaoluizreal?t=VypBsGijq2rneVK0uRYYpg&s=09" target="_blank" class="fab fa-twitter"></a>
+				</div>
+			</div>
+
+			<div class="col-2">
+				<h3>Horário de funcionamento</h3>
+				<p>14:00 - 18:00</p>
+			</div>
+
+			
+			<div class="col-3">
+				<h3>NEWSLETTER</h3>
+				<form>
+					<input type="email" placeholder="E-MAIL" required>
+					<br>
+					<button type="submit">CADASTRAR</button>
+			</form>
+		</div>
+	</section> 
+
+		<script src="scripts/slide.js"></script>
+		<script src="https://kit.fontawesome.com/e88866346b.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
